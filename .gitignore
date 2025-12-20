@@ -151,6 +151,12 @@ venv.bak/
 *.npy
 *.npz
 
+# YOLO / ultralytics outputs
+runs/             # koulutus- ja inferenssitulokset
+*.pt              # mallipainot
+dataset/valid/depth_raw/  # syvyyskartat
+
+
 # PyCharm project settings
 .idea/
 
